@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+\b 1.To create a Selenium IDE script for the webpage {{\field{\*\fldinst{HYPERLINK https://www.techlistic.com/p/selenium-practice-form.html }}{\fldrslt{https://www.techlistic.com/p/selenium-practice-form.html\ul0\cf0}}}}\f0\fs22 , follow the steps below:\par
+\b0 Launch Selenium IDE in Firefox.\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Navigate to {{\field{\*\fldinst{HYPERLINK https://www.techlistic.com/p/selenium-practice-form.html }}{\fldrslt{https://www.techlistic.com/p/selenium-practice-form.html\ul0\cf0}}}}\f0\fs22  in Firefox.\par
+{\pntext\f0 2.\tab}Click on the "Record" button in Selenium IDE.\par
+{\pntext\f0 3.\tab}Fill out the form with the following details:\par
+{\pntext\f0 4.\tab}First Name: John\par
+{\pntext\f0 5.\tab}Last Name: Doe\par
+{\pntext\f0 6.\tab}Gender: Male\par
+{\pntext\f0 7.\tab}Years of Experience: 3\par
+{\pntext\f0 8.\tab}Date: 2023-04-05\par
+{\pntext\f0 9.\tab}Profession: Automation Tester\par
+{\pntext\f0 10.\tab}Automation Tools: Selenium WebDriver\par
+{\pntext\f0 11.\tab}Continents: North America\par
+{\pntext\f0 12.\tab}Commands: Browser Commands\par
+{\pntext\f0 13.\tab}Upload a File: Choose a file from your local machine\par
+{\pntext\f0 14.\tab}Click on the "Submit" button.\par
+{\pntext\f0 15.\tab}Wait for the webpage to load and verify that the text "Form Submitted Successfully!" is displayed on the webpage.\par
+{\pntext\f0 16.\tab}Click on the "Stop" button in Selenium IDE to stop recording.\par
+{\pntext\f0 17.\tab}Save the script with a meaningful name, such as "PracticeForm_TestScript".\par
+
+\pard\sa200\sl276\slmult1 --------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 2: Open and Verify Google Homepage\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\b0 Open "{{\field{\*\fldinst{HYPERLINK https://www.google.com }}{\fldrslt{https://www.google.com\ul0\cf0}}}}\f0\fs22 " using the open command.\par
+{\pntext\f0 2.\tab}Verify the page title contains the text "Google" using the assertTitle command.\par
+{\pntext\f0 3.\tab}Type "Selenium" into the search input field using the type command.\par
+{\pntext\f0 4.\tab}Click the "Google Search" button using the click command.\par
+{\pntext\f0 5.\tab}Verify that search results are displayed by checking for an element using the waitForElementPresent command.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 3: Login to a Website \b0\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open {\b{\field{\*\fldinst{HYPERLINK https://www.demoblaze.com/the }}{\fldrslt{https://www.demoblaze.com/\b0 the\ul0\cf0}}}}\f0\fs22  login page of a website using the open command.\par
+{\pntext\f0 2.\tab}Enter a valid username and password using the type command.\par
+{\pntext\f0 3.\tab}Click the "Login" button using the click command.\par
+{\pntext\f0 4.\tab}Verify that the user is redirected to the dashboard by checking for a dashboard element using the waitForElementPresent command.\par
+{\pntext\f0 5.\tab}Log out by clicking the "Logout" button.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 4: Search and Sort Products\b0\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open an e-commerce website using the open command.\par
+{\pntext\f0 2.\tab}Enter a product name in the search bar using the type command.\par
+{\pntext\f0 3.\tab}Click the "Search" button using the click command.\par
+{\pntext\f0 4.\tab}Sort the search results by price using the select command.\par
+{\pntext\f0 5.\tab}Verify that the products are sorted by price in ascending order by checking the product list using the assertText command.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 5: Fill and Submit a Contact Form\b0\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open the contact page of a website using the open command.\par
+{\pntext\f0 2.\tab}Fill out the contact form fields (name, email, message) using the type command.\par
+{\pntext\f0 3.\tab}Click the "Submit" button using the click command.\par
+{\pntext\f0 4.\tab}Verify that a success message is displayed using the assertText command.\par
+{\pntext\f0 5.\tab}Check the email inbox to ensure that a confirmation email is received (outside the scope of Selenium).\par
+
+\pard\sa200\sl276\slmult1 --------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 6: Add and Remove Items from a Shopping Cart\b0\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open an online store using the open command.\par
+{\pntext\f0 2.\tab}Search for a product using the type command.\par
+{\pntext\f0 3.\tab}Click on the product to view its details using the click command.\par
+{\pntext\f0 4.\tab}Add the product to the shopping cart using the click command.\par
+{\pntext\f0 5.\tab}Remove the product from the shopping cart using the click command and verify that the cart is empty.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 7: Select and Deselect Checkboxes {{\field{\*\fldinst{HYPERLINK https://www.techlistic.com/p/selenium-practice-form.html }}{\fldrslt{https://www.techlistic.com/p/selenium-practice-form.html\ul0\cf0}}}}\f0\fs22\par
+\b0\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open a webpage with checkboxes using the open command.\par
+{\pntext\f0 2.\tab}Select a checkbox using the click command.\par
+{\pntext\f0 3.\tab}Verify that the checkbox is selected using the verifyChecked command.\par
+{\pntext\f0 4.\tab}Deselect the checkbox using the click command.\par
+{\pntext\f0 5.\tab}Verify that the checkbox is deselected using the verifyNotChecked command.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+{{\field{\*\fldinst{HYPERLINK https://demo.opencart.com/ }}{\fldrslt{https://demo.opencart.com/\ul0\cf0}}}}\f0\fs22\par
+\b Test Case 8: Select an Option from a Dropdown\b0\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open a webpage with a dropdown menu using the open command.\par
+{\pntext\f0 2.\tab}Select an option from the dropdown using the select command.\par
+{\pntext\f0 3.\tab}Verify that the selected option is displayed by checking for it using the assertText command.\par
+{\pntext\f0 4.\tab}Change the selected option to another one using the select command.\par
+{\pntext\f0 5.\tab}Verify that the new option is displayed by checking for it using the assertText command.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+\b Test Case 9: Perform a Site Search\b0\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1 Open a website using the open command.\par
+{\pntext\f0 2.\tab}Click on the search icon to open the search bar using the click command.\par
+{\pntext\f0 3.\tab}Enter a search query using the type command.\par
+{\pntext\f0 4.\tab}Press the "Enter" key or click the search button using the sendKeys or click command, respectively.\par
+{\pntext\f0 5.\tab}Verify that search results are displayed by checking for an element using the waitForElementPresent command.\par
+
+\pard\sa200\sl276\slmult1 ---------------------------------------------------------------------------------------------------------------------------\par
+Test Case 10:\par
+1. open {{\field{\*\fldinst{HYPERLINK https://jqueryui.com/ }}{\fldrslt{https://jqueryui.com/\ul0\cf0}}}}\f0\fs22  \par
+2. click on draggable\par
+3. click on view source\par
+4. print the code\par
+---------------------------------------------------------------------------------------------------------------------------\par
+Test Case 11:\par
+1. open {{\field{\*\fldinst{HYPERLINK https://magento.softwaretestingboard.com/?ref=hackernoon.com }}{\fldrslt{https://magento.softwaretestingboard.com/?ref=hackernoon.com\ul0\cf0}}}}\f0\fs22\par
+2.click on Hero Hoodie\par
+3. add that Hero Hoodie in cart\par
+4. go to cart \par
+5. assert hoodie is present in cart or not\par
+}
+ 
